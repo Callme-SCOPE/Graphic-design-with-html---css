@@ -1,0 +1,137 @@
+html{
+    background-color: darkgrey;
+    font-family:"Gill sans", sans-serif;
+    font-size: 16px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /*position: fixed;*/
+}
+
+#overall-container{
+    display: flex;
+    position: fixed;
+    width: 1500px;
+    height: 800px;
+    overflow: hidden;
+    margin-top: 90px;
+    margin-left: 200px;
+}
+
+#left-container{
+    order: 2;
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    margin-left: 1120px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+#right-container{
+    order: 1;
+    position: absolute;
+    width: 74%;
+    height: 100%;
+}
+#up-container{
+    display: flex;
+    height: 49%;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 0%;
+}
+
+#down-container{
+    display: flex;
+    height: 49%;
+}
+#upleft-container{
+    order: 1;
+    background-color: blueviolet;
+    width: 70%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 0;
+}
+#upright-container{
+    order: 2;
+    background-color: darkslategrey;
+    width: 30%;
+    margin-left: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#downleft-container{
+    order: 1;
+    background-color: white;
+    height: 100%;
+    width: 30%;
+    border-radius: 20px;
+    color: black;
+}
+
+#downright-container{
+    order: 2;
+    background-color: black;
+    height: 100%;
+    width: 70%;
+    margin-left: 20px;
+    border-radius: 20px;
+
+}
+
+#upleft-container h2, p{
+    margin: 40px;
+}
+
+#upright-container h2, p{
+    margin: 40px;
+}
+
+#downleft-container h2, p{
+    margin: 40px;
+}
+
+#downright-container h2, p{
+    margin: 40px;
+}
+
+#left-container h2, p{
+    margin: 40px;
+}
+#left-container:hover{
+    background-color: wheat;
+    font-size: 17px;
+}
+#upleft-container:hover{
+    background-color: darkblue;
+    font-size: 17px;
+}
+#upright-container:hover{
+    background-color: gray;
+    font-size: 17px;
+}
+#downleft-container:hover{
+    background-color: wheat;
+    font-size: 17px;
+}
+#downright-container:hover{
+    background-color: gray;
+    font-size: 17px;
+}
+#upleft-container img{
+    position: absolute;
+    width: 120px;
+    height: 150px;
+    /*top: 0;
+    bottom: 0;*/
+    margin-left: 500px;
+    z-index: -1;
+    opacity: 50%;
+}
+
+
